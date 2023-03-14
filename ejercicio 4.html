@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Mafia Ink</title>
+
+ </head>
+
+ <body style="background-color:#E9967A;">
+
+<form action="contact.php" method="post">
+  <div class="elem-group">
+    <label for="name">Nombre</label>
+    <input type="text" >
+
+    <label for="email">Correo electrónico</label>
+     <input type="email" >
+    </div> <div class="elem-group"> <label for="department-selection">Área a contactar</label>
+       <select id="department-selection" name="concerned_department" required> <option value="">Selecciona tipo de tatuaje</option>
+         <option value="billing">Neo</option> <option value="marketing">Blackwor</option>
+         <option value="technical support">Just line</option> </select>
+       </div> <div class="elem-group">
+         <label for="title">Motivo de contacto</label> <input type="text" >
+       </div> <div class="elem-group"> <label for="message">Detalles del tatuaje</label> <textarea placeholder="Escribe tu mensaje aquí." ></textarea> </div> <button type="submit">Enviar mensaje</button></form>
+
+<label style ="color:#8B4513"> Choose a style </label>
+  <select name "Style">
+    <option>Neotradi</option>
+    <option>BlackWork</option>
+  </select>
+ </body>
+</html>
